@@ -15,18 +15,13 @@ form {
 	-o-border-radius: 6px;
 }
 
-input:focus {
-	background-color: rgb(219, 190, 253);
-	color: rgb(32, 5, 63);
-	border-color: rgb(32, 5, 63);
-}
-
 label {
 	margin-bottom: 0.5rem;
 	display: block;
 }
 
-input {
+input,
+textarea {
 	width: 100%;
 	display: block;
 	margin-bottom: 1rem;
@@ -35,6 +30,13 @@ input {
 	border: 1px solid rgb(184, 184, 184);
 	padding: 0.25rem;
 	color: rgb(61, 58, 58);
+}
+
+input:focus,
+textarea:focus {
+	background-color: rgb(219, 190, 253);
+	color: rgb(32, 5, 63);
+	border-color: rgb(32, 5, 63);
 }
 
 button {
